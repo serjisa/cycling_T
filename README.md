@@ -25,7 +25,7 @@ One of the objectives of the project was to develop and test various methods for
 - The second pipeline was to regress out cell cycle effect, so we got the genes whose expression is most associated with the cell cycle and then we again classified and annotated the cells using the knn method.
 - The third pipeline is label transfer. This method assumes that if we already have an annotated dataset, for which we know the cell types, we can integrate the data of unknown cells with this existing reference dataset and, based on the environment of unknown cells, understand what type they belong to.
 
-We also compared results with the baseline method - knn classification on the dataset without any preprocessing of the division signal.
+We also compared results with the baseline method - knn classification on the dataset without any preprocessing of the cell cycle signal.
 
 ## Results
 

@@ -64,9 +64,13 @@ Overall the label transfer method shows a better mean quality and a smaller vari
     ├── src                                      <- Source code of pipelines, validation and visuzation
     └── annotation_pipelines.ipynb               <- Run annotation pipelines on prepared data
 
-## Minimum hardware requirements
+## Minimum requirements
 
 - Hardware
     - CPU: 4 CPU Cores
     - RAM: 50 GB
     - System disk space: 50 GB
+ - Software
+    - Python version: 3.10.5
+    - OS: Ubuntu 20.04.4 LTS
+    - All used packages are listed in `requirements.txt`

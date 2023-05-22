@@ -37,18 +37,24 @@ The scanpy package was used as the main tool for working with single-sell transc
 
 The preparation of datasets took place in several stages: the first one was downloading data from the GEO NCBI database and uploading it to Jupiter notebook for further analysis. We analyzed two datasets GSE162500 (11 patients, 17 sample) and GSE154826 (35 patients, 77 sample). Next, data quality control was performed. Cells with too low and high counts, cells with too high percentage of mitochondrial genes were filtered out. For each batch, doublets were filtered out using the scrublet tool. At the end, counts were normalized and log-transformed. 
 
-After that, datasets filtered from unnecessary data went through a multi-stage annotation of cell types. At each stage, 3000 highly variable genes were selected, batch correction using the harmony algorithm, and clustering using the leiden algorithm. First of all, we removed cells that did not express the CD3E T lymphocyte marker. We found 54971 CD3+ in the GSE162500 dataset and 126910 in the GSE154826 dataset After filtering out CD3 cells from the original datasets, we again selected highly variable genes, performed batch correction and clustering. After that, we obtained clusters of three types CD8+, CD4+, CB 4/8 cycling (expressing the division marker MKI67) and CD4/8 IFN (expressing the interferon signal marker gene ISG15). CD8+ and CD4+ cells were divided into 2 datasets, and they were separately selected for highly variable genes, batch correction, and clustering. After that, according to the expression of a number of marker genes taken from the article (ARTICLE!) The cell type was determined for each of the clusters.
+After that, datasets filtered from unnecessary data went through a multi-stage annotation of cell types. At each stage, 3000 highly variable genes were selected, batch correction using the harmony algorithm, and clustering using the leiden algorithm. First of all, we removed cells that did not express the CD3E T lymphocyte marker. We found **54971** CD3+ in the GSE162500 dataset and **126910** in the GSE154826 dataset After filtering out CD3 cells from the original datasets, we again selected highly variable genes, performed batch correction and clustering. After that, we obtained clusters of three types CD8+, CD4+, CB 4/8 cycling (expressing the division marker MKI67) and CD4/8 IFN (expressing the interferon signal marker gene ISG15). CD8+ and CD4+ cells were divided into 2 datasets, and they were separately selected for highly variable genes, batch correction, and clustering. After that, according to the expression of a number of marker genes taken from the article (ARTICLE!) The cell type was determined for each of the clusters.
 
 | ![image](https://github.com/serjisa/cycling_T/blob/main/images/UMAPS1.png) | 
 |:--:| 
 | *UMAPS obtained during the annotation of dataset GSE162500* |
 
+| ![image](https://github.com/serjisa/cycling_T/blob/main/images/hitmaps1.png) | 
+|:--:| 
+| *Hitmaps used for annotation of cell types of GSE162500 dataset* |
 
 
 | ![image](https://github.com/serjisa/cycling_T/blob/main/images/UMAPS2.png) | 
 |:--:| 
 | *UMAPS obtained during the annotation of dataset GSE154826* |
 
+| ![image](https://github.com/serjisa/cycling_T/blob/main/images/hitmaps2.png) | 
+|:--:| 
+| *Hitmaps used for annotation of cell types of GSE154826 dataset* |
 
 
 ## Results

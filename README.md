@@ -56,6 +56,11 @@ After that, datasets filtered from unnecessary data went through a multi-stage a
 |:--:| 
 | *Hitmaps used for annotation of cell types of GSE154826 dataset* |
 
+The last stage of dataset processing was working with T cell receptors. The scirpy package was used for this. First, the types of T cell receptors for each cell were determined and only cells carrying at least one alpha and beta chain were selected. Clonotypes have also been identified. At a certain stage of maturation of a T-lymphocyte, its T cell receptors mature; during this maturation, the receptor gene sequence undergoes recombination and mutational changes, due to which it becomes unique in the hypervariable CDR3 locus. Subsequently, all descendants of a particular lymphocyte can be determined from this unique sequence. The descendants of a single lymphocyte are called a clonotype.
+
+| ![image](https://github.com/serjisa/cycling_T/blob/main/images/clonotypes.png) | 
+|:--:| 
+| *UMAPS showing cells in largest clonotypes and cell types of all cells for GSE162500 and GSE154826 datasets* |
 
 ## Results
 

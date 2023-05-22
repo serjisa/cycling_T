@@ -117,4 +117,4 @@ Overall the label transfer method shows a better mean quality and a smaller vari
 
 ## References
 1) Attaf, M., Huseby, E., Sewell, A. αβ T cell receptors as predictors of health and disease. Cell Mol Immunol 12, 391–399 (2015). https://doi.org/10.1038/cmi.2014.134
-2) Gueguen P, Metoikidou C, Dupic T, Lawand M, Goudot C, Baulande S, Lameiras S, Lantz O, Girard N, Seguin-Givelet A, Lefevre M, Mora T, Walczak AM, Waterfall JJ, Amigorena S. Contribution of resident and circulating precursors to tumor-infiltrating CD8+ T cell populations in lung cancer. Sci Immunol. 2021 Jan 29;6(55):eabd5778. doi: 10.1126/sciimmunol.abd5778
+2) Gueguen P, Metoikidou C, Dupic T, Lawand M, Goudot C, Baulande S, Lameiras S, Lantz O, Girard N, Seguin-Givelet A, Lefevre M, Mora T, Walczak AM, Waterfall JJ, Amigorena S. Contribution of resident and circulating precursors to tumor-infiltrating CD8+ T cell populations in lung cancer. Sci Immunol 6(55), (2021). https://doi.org/10.1126/sciimmunol.abd5778

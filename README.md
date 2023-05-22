@@ -27,6 +27,10 @@ One of the objectives of the project was to develop and test various methods for
 
 We also compared results with the baseline method - knn classification on the dataset without any preprocessing of the cell cycle signal.
 
+### Preparation of datasets for training and validation of pipelines.
+
+The process of preparing datasets for training and validation is shown in the diagram. The scanpy package was used as the main tool for working with single-sell transcriptomes. Scirpy was used for TCR analysis.
+
 ## Results
 
 

@@ -29,11 +29,11 @@ We also compared results with the baseline method - knn classification on the da
 
 ### Preparation of datasets for training and validation of pipelines.
 
-The process of preparing datasets for training and validation is shown in the diagram. The scanpy package was used as the main tool for working with single-sell transcriptomes. Scirpy was used for TCR analysis.
+The scanpy package was used as the main tool for working with single-sell transcriptomes. Scirpy was used for TCR analysis.
 
-| ![image](https://github.com/serjisa/cycling_T/assets/22592039/1f00f1ba-1b4a-4673-964a-72660e8161ef) | 
+| ![image]([https://github.com/serjisa/cycling_T/assets/22592039/1f00f1ba-1b4a-4673-964a-72660e8161ef]) | 
 |:--:| 
-| *Examples of an original UMAP and new labels for **removed genes** pipeline on **GSE162500** dataset* |
+| *Process of preparing datasets for training and validation* |
 
 ## Results
 

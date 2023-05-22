@@ -54,7 +54,7 @@ After that, datasets filtered from unnecessary data went through a multi-stage a
 
 | ![image](https://github.com/serjisa/cycling_T/blob/main/images/UMAPS2.png) | 
 |:--:| 
-| *UMAPS obtained during the annotation of dataset **GSE154826*** |
+| *UMAPs obtained during the annotation of dataset **GSE154826*** |
 
 | ![image](https://github.com/serjisa/cycling_T/blob/main/images/hitmaps2.png) | 
 |:--:| 

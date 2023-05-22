@@ -45,26 +45,26 @@ After that, datasets filtered from unnecessary data went through a multi-stage a
 
 | ![image](https://github.com/serjisa/cycling_T/blob/main/images/UMAPS1.png) | 
 |:--:| 
-| *UMAPS obtained during the annotation of dataset GSE162500* |
+| *UMAPS obtained during the annotation of dataset **GSE162500*** |
 
 | ![image](https://github.com/serjisa/cycling_T/blob/main/images/hitmaps1.png) | 
 |:--:| 
-| *Hitmaps used for annotation of cell types of GSE162500 dataset* |
+| *Hitmaps used for annotation of cell types of **GSE162500** dataset* |
 
 
 | ![image](https://github.com/serjisa/cycling_T/blob/main/images/UMAPS2.png) | 
 |:--:| 
-| *UMAPS obtained during the annotation of dataset GSE154826* |
+| *UMAPS obtained during the annotation of dataset **GSE154826*** |
 
 | ![image](https://github.com/serjisa/cycling_T/blob/main/images/hitmaps2.png) | 
 |:--:| 
-| *Hitmaps used for annotation of cell types of GSE154826 dataset* |
+| *Hitmaps used for annotation of cell types of **GSE154826** dataset* |
 
 The last stage of dataset processing was working with T cell receptors. The scirpy package was used for this. First, the types of T cell receptors for each cell were determined and only cells carrying at least one alpha and beta chain were selected (**27493** in GSE162500 and **11838** in GSE154826 dataset). Clonotypes have also been identified. 
 
 | ![image](https://github.com/serjisa/cycling_T/blob/main/images/clonotypes.png) | 
 |:--:| 
-| *UMAPS showing cells in largest clonotypes and cell types of all cells for GSE162500 and GSE154826 datasets* |
+| *UMAPs showing cells in largest clonotypes and cell types of all cells for GSE162500 and GSE154826 datasets* |
 
 ## Results
 

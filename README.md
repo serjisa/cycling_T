@@ -9,7 +9,7 @@ Kristina Zheltova ([github](https://github.com/pacifikus), [telegram](https://t.
 
 **Superviser:**
 
-Sergey Isaev, Medical University of Vienna
+Sergey Isaev, Medical University of Vienna 
 
 ## Introduction
 
